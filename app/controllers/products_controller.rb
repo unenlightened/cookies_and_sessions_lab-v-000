@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   end
 
 #new
-  def homepage 
+  def homepage
 
   end
 
