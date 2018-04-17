@@ -59,5 +59,4 @@ Rails.application.routes.draw do
     post 'create', as: :add
   end
 
-  get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 end
