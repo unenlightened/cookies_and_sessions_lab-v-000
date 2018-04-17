@@ -3,5 +3,8 @@ class ProductsController < ApplicationController
 
   end
 
+  def homepage
+
+  end
 
 end
