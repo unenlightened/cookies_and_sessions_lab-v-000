@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   def add
     @product = params[:product]
     cart << @product
-    redirect 'index'
+    redirect_to product_index_path
   end
 
 end
