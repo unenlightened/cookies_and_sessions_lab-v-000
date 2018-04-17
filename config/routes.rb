@@ -56,5 +56,6 @@ Rails.application.routes.draw do
 
   root 'products#index'
   resources :product, only: [:index, :create] do
+    post :add, as: :create
   end
 end
