@@ -1,10 +1,8 @@
 class ProductsController < ApplicationController
-  def index
-
+  def index    
   end
 
-#new
-  def homepage
+  def add
 
   end
 
